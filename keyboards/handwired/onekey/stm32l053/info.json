@@ -1,0 +1,33 @@
+{
+    "manufacturer": "Kevin Yuan",
+    "keyboard_name": "handwired/onekey/stm32l053",
+    "maintainer": "kevihiiin",
+    "bootloader": "stm32-dfu",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": false,
+        "mousekey": false,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "cols": ["B4"],
+        "rows": ["B5"]
+    },
+    "processor": "STM32L053",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT_ortho_1x1": {
+            "layout": [
+                {"x": 0, "y": 0}
+            ]
+        }
+    }
+}
